@@ -1,0 +1,17 @@
+website:
+  navbar:
+    background: $navy-blue-pantone
+    search: true
+    right:
+      - text: "SEFSC Resources"
+        menu:
+          - href: https://www.fisheries.noaa.gov/contact/southeast-fisheries-science-center
+            text: SEFSC Homepage
+          - href: https://nmfs-opensci.github.io/
+            text: NOAA Fisheries Open Science
+      - text: "Software & Documentation"
+        menu:
+          - href: https://github.com/sefsc
+            text: SEFSC GitHub Organization
+          - href: https://noaa-fisheries-integrated-toolbox.github.io/
+            text: NOAA Fisheries Integrated Toolbox
