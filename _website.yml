@@ -1,0 +1,42 @@
+website: 
+  page-navigation: true
+  repo-actions: [source, issue]
+  favicon: images/favicon.png
+  
+  page-footer:
+    background: $navy-blue-pantone
+    foreground: $white
+    right: |
+        [NOAA](https://noaa.gov) <br>
+        [NOAA Fisheries](https//fisheries.noaa.gov) <br>
+        [Southeast Fisheries Science Center](https://www.fisheries.noaa.gov/contact/southeast-fisheries-science-center)
+
+        This page is built with [Quarto](https://quarto.org/). &copy; CC-1.0
+    left: |
+        NOAA National Marine Fisheries Service <br>
+        Southeast Fisheries Science Center <br>
+        75 Virginia Beach Drive <br>
+        Miami, FL 33149
+        \(305\) 361-4200
+  
+  sidebar:
+    background: $gray30
+    logo: "https://github.com/MattGrossi-NOAA/documentation-theme-jekyll/blob/main/images/NOAA_FISHERIES_logoV.png?raw=true"
+    favicon: images/favicon.ico
+    pinned: true
+    align: center
+    tools:
+      - icon: house
+        href: https://noaa.gov
+        text: NOAA Home
+      - icon: globe
+        href: https://www.fisheries.noaa.gov/contact/southeast-fisheries-science-center
+        text: "NOAA Southeast Fisheries Science Center"
+      - icon: github
+        href: https://github.com/SEFSC
+        text: "SEFSC GitHub"
+
+    style: "docked"
+    search: true
+    collapse-level: 2
+    contents: auto
