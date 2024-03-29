@@ -1,7 +1,7 @@
 website: 
   page-navigation: true
   repo-actions: [source, issue]
-  favicon: images/favicon.png
+  favicon: theme/images/favicon.png
   
   page-footer:
     background: $navy-blue-pantone
@@ -22,7 +22,7 @@ website:
   sidebar:
     background: $gray30
     logo: "https://github.com/MattGrossi-NOAA/documentation-theme-jekyll/blob/main/images/NOAA_FISHERIES_logoV.png?raw=true"
-    favicon: images/favicon.ico
+    favicon: theme/images/favicon.ico
     pinned: true
     align: center
     tools:
@@ -40,3 +40,13 @@ website:
     search: true
     collapse-level: 2
     contents: auto
+
+format:
+  html:
+        code-copy: true
+    code-overflow: wrap
+    toc: true
+
+filters:
+  - include-files.lua
+  - quarto
