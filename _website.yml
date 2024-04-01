@@ -43,7 +43,7 @@ website:
 
 format:
   html:
-        code-copy: true
+    code-copy: true
     code-overflow: wrap
     toc: true
 
