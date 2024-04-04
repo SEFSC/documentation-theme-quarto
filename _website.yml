@@ -22,7 +22,6 @@ website:
   sidebar:
     background: $gray30
     logo: "https://github.com/MattGrossi-NOAA/documentation-theme-jekyll/blob/main/images/NOAA_FISHERIES_logoV.png?raw=true"
-    favicon: theme/images/favicon.ico
     pinned: true
     align: center
     tools:
