@@ -2,7 +2,6 @@ website:
   page-navigation: true
   repo-actions: [source, issue]
   repo-branch: docs
-  repo-link-target: "_blank"
   favicon: theme/images/favicon.png
   
   page-footer:
@@ -50,4 +49,5 @@ format:
 
 filters:
   - include-files.lua
+  - theme/newpagelink.lua
   - quarto
