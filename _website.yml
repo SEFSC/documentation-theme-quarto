@@ -48,6 +48,6 @@ format:
     toc: true
 
 filters:
-  - include-files.lua
+  - theme/include-files.lua
   - theme/newpagelink.lua
   - quarto
