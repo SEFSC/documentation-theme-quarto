@@ -22,7 +22,7 @@ website:
   
   sidebar:
     background: $gray30
-    logo: "images/NOAA_FISHERIES_logoV.png"
+    logo: "theme/images/NOAA_FISHERIES_logoV.png"
     pinned: true
     align: center
     tools:
