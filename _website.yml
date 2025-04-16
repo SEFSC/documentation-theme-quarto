@@ -22,7 +22,7 @@ website:
   
   sidebar:
     background: $gray30
-    logo: "https://github.com/SEFSC/documentation-theme-jekyll/blob/main/images/NOAA_FISHERIES_logoV.png?raw=true"
+    logo: "images/NOAA_FISHERIES_logoV.png"
     pinned: true
     align: center
     tools:
