@@ -49,5 +49,4 @@ format:
 
 filters:
   - theme/include-files.lua
-  - theme/newpagelink.lua
   - quarto
